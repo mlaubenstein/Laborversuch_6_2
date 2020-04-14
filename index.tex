@@ -1,0 +1,62 @@
+% !TeX encoding = UTF-8 
+% !TeX spellcheck = de_DE 
+% !TeX program = pdflatex
+% !BIB program = biber
+\documentclass{wab}
+
+%TODO bitte hier die Matrikelnummer und Gruppe angeben
+\institute{Matrikel: DKMI17}
+
+\authors{Marvin Laubenstein}{Marc Hey}{}{}
+\contactperson{s176137@hft-leipzig.de}
+\title{MF02 S-Parameter VNA}
+
+
+
+\handindate{\today}
+
+
+\bibliography{References/rfc,References/ieee,References/itut,References/3gpp,References/etsi,References/w3c,References/online, References/quellen}
+
+\begin{document}
+
+
+\maketitle
+
+\pagenumbering{Roman}
+\newpage
+
+\include{vorwort}
+\cleardoublepage
+
+\tableofcontents
+\cleardoublepage
+\phantomsection
+\listoffigures
+
+
+% Bei Bedarf auskommentieren
+%\lstlistoflistings
+%\addcontentsline{toc}{chapter}{Quellcodeverzeichnis}
+
+\clearpage
+\newpage
+\include{acronym}
+\clearpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%Einbinden des ersten Kapitels
+\include{Einleitung}
+\cleardoublepage
+
+%Einbinden des nächsten Kapitels
+
+\clearpage
+\pagenumbering{roman}
+
+
+\printbibliography[heading=bibintoc,title={Quellenverzeichnis}]
+
+\end{document}
