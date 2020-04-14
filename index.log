@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.11)  14 APR 2020 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.11)  14 APR 2020 19:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1431,7 +1431,170 @@ File: Bilder/Grundubertragungsglieder im Zeitbereich (verschoben) 7.pdf Graphic 
 <use Bilder/Grundubertragungsglieder im Zeitbereich (verschoben) 7.pdf>
 Package pdftex.def Info: Bilder/Grundubertragungsglieder im Zeitbereich (verschoben) 7.pdf  used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 644.00287pt.
- [7 <./Bilder/Grundubertragungsglieder im Zeitbereich (verschoben) 7.pdf>]) [8]
+ [7 <./Bilder/Grundubertragungsglieder im Zeitbereich (verschoben) 7.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 14--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 40.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--90
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
+
+ []
+
+[11]) [12]
 
 LaTeX Warning: Empty bibliography on input line 60.
 
@@ -1447,18 +1610,18 @@ Package logreq Info: Writing requests to 'index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36205 strings out of 492163
- 628194 string characters out of 6125306
- 1193597 words of memory out of 5000000
- 40060 multiletter control sequences out of 15000+600000
- 566439 words of font info for 52 fonts, out of 8000000 for 9000
+ 36292 strings out of 492163
+ 629641 string characters out of 6125306
+ 1194598 words of memory out of 5000000
+ 40092 multiletter control sequences out of 15000+600000
+ 568887 words of font info for 76 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,11n,86p,886b,2205s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on index.pdf (12 pages, 574929 bytes).
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on index.pdf (16 pages, 643038 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 37 named destinations out of 1000 (max. 500000)
- 11468 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 454 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 11980 words of extra memory for PDF output out of 12000 (max. 10000000)
 
