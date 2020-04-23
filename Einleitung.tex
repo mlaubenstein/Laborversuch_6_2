@@ -19,25 +19,92 @@ zeitkontinuierlicher Systeme im Zeit- und Bildbereich.
 
 \subsubsection{Begriffe}
 
-Wie sind die Signalgrößen Anstiegs- und Abfallzeit, Dachabfall, Impulsdauer und Überschwingen definiert?\\
-\newline%TODO
-Wie sind die Systemantworten Übergangsfunktion und Sprungantwort definiert?\\
-\newline%TODO
+\textbf{Wie sind die Signalgrößen Anstiegs- und Abfallzeit, Dachabfall, Impulsdauer und Überschwingen definiert?}\\
+
+\textbf{Anstiegs- und Abfallzeit}\\
+Die Anstiegszeit ist die Dauer eines Signalanstiegs von 10\% auf 90\% und die Abfallzeit ist die 
+Dauer von 90\% auf 10\%
+
+\textbf{Dachabfall}\\
+Der Dachabfall beschreibt prozentual die Verzerrung/Abweichung des Impulsdaches von einer horizontalen 
+Linie. Dies findet mit Ausschluss von Impulsverrundung, Überschwingung und Eigenschwingvorgängen statt.
+
+\textbf{Impulsdauer}\\
+Als Impulsdauer bezeichnet man die Zeitspanne in der die Amplitude eines Impulses größer, als 50\% der 
+Maximalamplitude ist.
+
+\textbf{Überschwingung}\\
+Überschwingungen sind Impulsspitzen auf dem Impulsdach, die kurzzeitig auftreten können. 
+Diese werden in Prozenten angegeben.\\
+
+\textbf{Wie sind die Systemantworten Übergangsfunktion und Sprungantwort definiert?}\\
+
+\textbf{Übergangsfunktion}\\
+Eine Übertragungsfunktion ist die mathematische Beschreibung des Verhaltens eines Übertragungsgliedes. 
+Mittels der Übertragungsfunktion wird das Verhalten des Systems aus den Eingangs- und Ausgangssignalen beschrieben.
+
+\textbf{Sprungantwort}\\
 
 \subsubsection{Tiefpass (proportinales System mit Verzögerung)}
 
 Ein proportionales System mit Verzögerung 1. Ordnung ist in Bild 1 dargestellt.\\
 \begin{itemize}
 \item a)    Geben  Sie  die  Übertragungsfunktion  $G(p)$,  die  Übertragungskonstante  $KD$ und die Zeit-konstante T1 an.\\ 
-\newline%TODO
+\begin{itemize}
+	\item Übertragungsfunktion
+		\begin{equation}
+			G\left( p \right) = -\frac{ R_{ 2 } }{ R_{ 1 } }*\frac{ 1 }{1+pR_{ 2 }C } 
+		\end{equation}
+	\item Übertragungskonstante
+		\begin{equation}
+			K = -\frac{ R_{ 2 } }{ R_{ 1 } }
+		\end{equation}
+	\item Zeitkonstante
+		\begin{equation}
+			T_{1} = R_{2}C
+		\end{equation}
+
+\end{itemize}
+
 \item b)    Ermitteln  Sie  die  Sprung-  und  Impulsantwort. Skizzieren  Sie  deren  qualitativen  Verlauf und tragen Sie die Zeitkonstante $T1$ in $h(t)$ ein.\\ 
 \newline%TODO
 \item c)    Wie lang sind die Anstiegszeiten für einen Sprung bei $T_{ 1 }=100\mu s$ und $T1 = 1 ms$?\\ 
-\newline%TODO
+\newline
+ 	$T_{1}=100\mu s$
+	$T_{1}=1m $\\
+	\newline
+	$0.9 U_{0}= h\left( t_{0.9}\right)h$\\
+	$0.9 U_{0}= U_{0}\left(1-e^{ -\frac{ t_{ 0.9 } }{T  } }\right)$  |$+e^{ -\frac{ t_{ 0.9 } }{T}}$  | $-0,9$\\
+	$e^{ -\frac{ t_{ 0.9 } }{T}} = 0,1$\\
+	$-\frac{ t_{ 0.9 } }{T}= ln\left(0,1\right)$\\
+	$t_{0,9}= -T*ln(0,1)$\\
+	$t_{0,1}= -T*ln(0,9)$\\
+	\newline
+	$t_{1}=t_{0,9}-t_{0,1}$\\
+	$t_{1}=-T*(ln(0,1)-ln(0,9))$\\
+	\newline
+	\textbf{$t_{1}=2,1972*T$}\\
+	\textbf{$t_{1_{100\mu s}}=0,2197ms$}\\
+	\textbf{$t_{1_{1ms}}=2,197ms$}\\
+	\newline
 \item d)    Berechnen Sie R2 für die beiden Zeitkonstanten.\\ 
-\newline%TODO
-\item e)    Welche Impulsfolgefrequenz ist bei einem Tastgrad $k = 0,2$ und einer System-zeitkonstante $T1 = 1 ms$ zu wählen, um den Ausgleichsvorgang darzustellen\\
-\newline%TODO
+\newline
+$T_{1}=R_{2}C$ | $*C$\\
+$R_{2}=\frac{T_{1}}{C}$\\
+
+$R_{2_{1}}=\frac{100*10^{-6}s}{0,1*10^{-6}F}=1000\Omega=1k\Omega$\\
+$R_{2_{1}}=\frac{1*10^{-6}s}{0,1*10^{-6}F}=10000\Omega=10k\Omega$\\
+
+\item e)    Welche Impulsfolgefrequenz ist bei einem Tastgrad $k= 0,2$ und einer System-zeitkonstante $T1 = 1 ms$ zu wählen, um den Ausgleichsvorgang darzustellen\\
+\newline
+$k=0,2$
+$T_{1}=1ms$\\
+\newline
+$k=\frac{t_{i}}{T_{p}}$\\
+$t_{i}=T_{p}$\\
+$T_{p}=\frac{T_{1}}{k}$\\
+$f=\frac{1}{T_{p}}=\frac{k}{T_{1}}=200Hz$
+
 \end{itemize}
 
 \subsubsection{Hochpass (differenzierendes Übertragungsglied mit Verzögerung)}
